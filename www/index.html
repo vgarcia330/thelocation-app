@@ -26,6 +26,15 @@
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css" />
         <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
         <script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
         <title>The Location</title>
         <style>
             .Center-Splash {
@@ -41,13 +50,55 @@
     <div>
         <img src="img/logo.png" class="Center-Splash">
     </div>
+    <div>
+        <h1>
+        The Location<small>
+        Taco Stand</small>
+        </h1>
+        <div>
+        Home of 'The Location' Burger and Tilden's "Favorite" Carne Guisada!
+        </div>
+        It ain't your mamma's cooking.....It's Better!!!
+
+        'The Location - Steakhouse & Beer Garden' coming soon!
 
 
+        Hours
+        Monday - Friday  6 A.M. – 2 P.M.
+
+
+
+        We accept all major credit cards.
+        No personal checks, please.
+
+<div>
+        The Location
+        Taco Stand
+        3071 Hwy 16
+        Tilden, TX 78072
+        Phone (361) 274-3337
+        http://www.thelocation.com
+        Like us on Facebook
+    </div>
+    </div>
+    <a href="menu-word.html" data-transition="flip">Menu</a>
 
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
+
+            // Wait for Cordova to load
+            //
+            document.addEventListener("deviceready", onDeviceReady, false);
+
+            // Cordova is ready
+            //
+            function onDeviceReady() {
+                setTimeout(function() {
+                    navigator.splashscreen.hide();
+                }, 2000);
+            }
         </script>
     </body>
 </html>
