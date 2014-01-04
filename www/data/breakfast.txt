@@ -1,0 +1,8 @@
+[{"Name ":"Chorizo/Egg","Price":"$1.89 "},
+{"Name ":"Sausage/Egg","Price":"$1.89 "},
+{"Name ":"Potato/Egg","Price":"$1.89 "},
+{"Name ":"Bacon/Egg","Price":"$1.89 "},
+{"Name ":"Carne Guisada","Price":"$2.59 "},
+{"Name ":"Barbacoa - Thur/Fri only","Price":"$2.59 "},
+{"Name ":"Chicharons","Price":"$1.89 "},
+{"Name ":"Picadillo","Price":"$2.59 "}]

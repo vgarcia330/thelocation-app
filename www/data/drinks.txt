@@ -1,0 +1,7 @@
+[{"Name ":"Tea/Coffee/Orange Juice   (32 oz Tea/16 oz Coffee/10 oz Tropicana  * (44 oz Tea  $1.69)*)","Price":" $1.49 "},
+{"Name ":"Coke, Diet Coke, Sprite, Dr Pepper, Big Red, BargsRoot Beer  (20 oz Bottle Drinks)","Price":" $1.89 "},
+{"Name ":"Mexican Cokes  (1/2 liter bottle)","Price":" $2.25 "},
+{"Name ":"Powerade  (Blue/Red    20 oz bottle)","Price":" $1.59 "},
+{"Name ":"Monster Energy Drinks  (Blue/Green   16 oz cans)","Price":" $2.69 "},
+{"Name ":"Red Bull  (8.4 oz can (regular/sugar free))","Price":" $2.29 "},
+{"Name ":"Bottle Water  (20 oz bottle)","Price":" $1.39 "}]

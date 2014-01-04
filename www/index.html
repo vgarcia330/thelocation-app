@@ -18,87 +18,148 @@
     under the License.
 -->
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css" />
-        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-        <script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
+    <!--<link rel="stylesheet" type="text/css" href="css/index.css" />-->
+    <title>The Location App</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css"/>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
 
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <!--&lt;!&ndash; Latest compiled and minified CSS &ndash;&gt;-->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
 
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+    <!--&lt;!&ndash; Optional theme &ndash;&gt;-->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
 
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-        <title>The Location</title>
-        <style>
-            .Center-Splash {
-                display:block;
-                margin:0 auto;
+    <!--&lt;!&ndash; Latest compiled and minified JavaScript &ndash;&gt;-->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <title>The Location</title>
+    <style>
 
-            }
+        .Center-Splash {
+            display: block;
+            margin: 0 auto;
 
+        }
 
-        </style>
-    </head>
-    <body>
-    <div>
-        <img src="img/logo.png" class="Center-Splash">
+        .footer-anchor {
+            position: fixed;
+            bottom:0;
+            z-index:999999; width: 100%;
+        }
+
+        .page-container{
+            margin: 8px;
+        }
+    </style>
+</head>
+<body>
+<div class="page-container">
+<div data-role="header" style="overflow:hidden; display: none;">
+    <div data-role="navbar">
+        <ul>
+            <li><a href="#">One</a></li>
+            <li><a href="#">Two</a></li>
+            <li><a href="#">Three</a></li>
+        </ul>
     </div>
-    <div>
-        <h1>
-        The Location<small>
-        Taco Stand</small>
-        </h1>
-        <div>
-        Home of 'The Location' Burger and Tilden's "Favorite" Carne Guisada!
-        </div>
-        It ain't your mamma's cooking.....It's Better!!!
-
-        'The Location - Steakhouse & Beer Garden' coming soon!
-
-
-        Hours
-        Monday - Friday  6 A.M. – 2 P.M.
-
-
-
-        We accept all major credit cards.
-        No personal checks, please.
+    <!-- /navbar -->
+</div>
+<!-- /header -->
 
 <div>
+    <img src="img/logo.png" class="Center-Splash">
+</div>
+
+<div>
+    <h1>
         The Location
-        Taco Stand
-        3071 Hwy 16
-        Tilden, TX 78072
-        Phone (361) 274-3337
-        http://www.thelocation.com
-        Like us on Facebook
+        <small>
+            Taco Stand
+        </small>
+    </h1>
+
+    <div class="well well-lg">
+        <div>
+            Home of 'The Location' Burger and Tilden's "Favorite" Carne Guisada!
+        </div>
+        <div>
+        It ain't your mamma's cooking.....It's Better!!!<br>
+
+        'The Location - Steakhouse & Beer Garden' coming soon!
+        </div>
     </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">About Us</h3>
+        </div>
+        <div class="panel-body">
+            <div>
+            <b> Hours</b><br>
+            Monday - Friday 6 A.M. – 2 P.M.
+        </div>
+<div>
+            We accept all major credit cards.<br>
+            No personal checks, please.
     </div>
-    <a href="menu-word.html" data-transition="flip">Menu</a>
+        </div>
+    </div>
 
-        <script type="text/javascript" src="phonegap.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Address</h3>
+        </div>
+        <div class="panel-body">
+            <div>
 
-            // Wait for Cordova to load
-            //
-            document.addEventListener("deviceready", onDeviceReady, false);
+            <a href="https://goo.gl/maps/h5byj">
+                The Location Taco Stand<br>
+                3071 Hwy 16<br>
+            Tilden, TX 78072<br>
+            </a>
+            Phone (361) 274-3337<br>
+            </div>
+            <div>
+            http://www.thelocation.com
+            Like us on Facebook
+            </div>
+        </div>
+    </div>
+</div>
 
-            // Cordova is ready
-            //
-            function onDeviceReady() {
-                setTimeout(function() {
-                    navigator.splashscreen.hide();
-                }, 2000);
-            }
-        </script>
-    </body>
+</div>
+
+<div data-role="footer" class="footer-anchor">
+    <div data-role="navbar" data-iconpos="left">
+        <ul>
+            <li><a href="index.html" data-transition="flip" data-icon="star" class="ui-btn-active">Home</a></li>
+            <li><a href="menu.html" data-transition="flip" data-icon="glyphicon glyphicon-cutlery">Menu</a></li>
+        </ul>
+    </div>
+</div>
+
+<script type="text/javascript" src="phonegap.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+<script type="text/javascript">
+    app.initialize();
+
+    // Wait for Cordova to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // Cordova is ready
+    //
+    function onDeviceReady() {
+        setTimeout(function () {
+            navigator.splashscreen.hide();
+        }, 2000);
+    }
+</script>
+</body>
 </html>

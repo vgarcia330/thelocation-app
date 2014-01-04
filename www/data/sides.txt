@@ -1,0 +1,6 @@
+[{"Name ":"Bacon","Price":"$0.35 "},
+{"Name ":"Bean","Price":"$0.35 "},
+{"Name ":"Cheese","Price":"$0.35 "},
+{"Name ":"Potato","Price":"$0.35 "},
+{"Name ":"Pico de Gallo","Price":"$0.89 "},
+{"Name ":"Guacamole","Price":"$0.99 "}]

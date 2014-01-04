@@ -1,0 +1,6 @@
+[{"Name ":"Location Burger","Price":"$6.99 "},
+{"Name ":"Brisket Sandwich","Price":"$6.99 "},
+{"Name ":"Beef Fajita Taco","Price":"$2.69 "},
+{"Name ":"Steak Fries","Price":"$2.19 "},
+{"Name ":"Homemade Charro Beans","Price":"$1.29 "},
+{"Name ":"Rice","Price":"$1.29 "}]
