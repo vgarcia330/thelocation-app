@@ -4,6 +4,9 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jQuery UI-1.10.2" level="application" />
+    <orderEntry type="library" name="Knockout-2.2.1" level="application" />
+    <orderEntry type="library" name="backbone.js" level="application" />
   </component>
 </module>
 
