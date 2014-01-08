@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="0" selection-start="3635" selection-end="4152" vertical-scroll-proportion="-11.0" vertical-offset="1626" max-vertical-offset="2445">
+            <state line="23" column="123" selection-start="1059" selection-end="1072" vertical-scroll-proportion="0.42910448" vertical-offset="0" max-vertical-offset="2415">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -37,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="menu.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="55" selection-start="3309" selection-end="3309" vertical-scroll-proportion="0.7761194" vertical-offset="831" max-vertical-offset="1650">
+            <state line="5" column="4" selection-start="123" selection-end="261" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1650">
               <folding>
                 <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -74,8 +74,8 @@
         <option value="$PROJECT_DIR$/www/data/lunchplates" />
         <option value="$PROJECT_DIR$/www/services-tutorial.html" />
         <option value="$PROJECT_DIR$/www/js/script.js" />
-        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/menu.html" />
+        <option value="$PROJECT_DIR$/www/index.html" />
       </list>
     </option>
   </component>
@@ -434,11 +434,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
+    <entry file="file://$PROJECT_DIR$/www/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="0" selection-start="3635" selection-end="4152" vertical-scroll-proportion="-11.0" vertical-offset="1626" max-vertical-offset="2445">
+        <state line="5" column="4" selection-start="123" selection-end="261" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1650">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -446,10 +445,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/menu.html">
+    <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="55" selection-start="3309" selection-end="3309" vertical-scroll-proportion="0.7761194" vertical-offset="831" max-vertical-offset="1650">
+        <state line="23" column="123" selection-start="1059" selection-end="1072" vertical-scroll-proportion="0.42910448" vertical-offset="0" max-vertical-offset="2415">
           <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
