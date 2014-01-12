@@ -26,16 +26,9 @@
       <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="0" selection-start="4626" selection-end="5070" vertical-scroll-proportion="0.29347825" vertical-offset="852" max-vertical-offset="1755">
+            <state line="73" column="0" selection-start="4626" selection-end="5045" vertical-scroll-proportion="0.59782606" vertical-offset="600" max-vertical-offset="1755">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="icon-57.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon-57.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -405,7 +398,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="0" selection-start="4626" selection-end="5070" vertical-scroll-proportion="0.29347825" vertical-offset="852" max-vertical-offset="1755">
+        <state line="73" column="0" selection-start="4626" selection-end="5045" vertical-scroll-proportion="0.59782606" vertical-offset="600" max-vertical-offset="1755">
           <folding />
         </state>
       </provider>
